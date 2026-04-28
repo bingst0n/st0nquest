@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://q6i586lsl634"
+
+[deps]
+
+files=["res://Assets/tilemap/world1/layer1.4.translation", "res://Assets/tilemap/world1/layer1.4.translation"]
+
+source_file="res://Assets/tilemap/world1/layer1.csv"
+dest_files=["res://Assets/tilemap/world1/layer1.4.translation", "res://Assets/tilemap/world1/layer1.4.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

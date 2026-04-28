@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://vt75mum887cq"
+
+[deps]
+
+files=["res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation"]
+
+source_file="res://Assets/tilemap/world1/layer0.csv"
+dest_files=["res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation", "res://Assets/tilemap/world1/layer0.0.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

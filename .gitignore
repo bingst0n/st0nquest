@@ -1,0 +1,16 @@
+# Godot 4
+.godot/
+*.uid
+
+# Export
+export/
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dmg
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
