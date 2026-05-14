@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://ckmkdcgcxahhg"]
+
+[ext_resource type="FontFile" uid="uid://bpu1mx6v3bshy" path="res://lower-pixel.regular.otf" id="1_55hsh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_55hsh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_qdpfi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j7p3s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dot17"]
+
+[node name="DialogueButton" type="Button" unique_id=1588473699]
+offset_right = 8.0
+offset_bottom = 8.0
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.875, 0.875, 0.875, 1)
+theme_override_colors/font_focus_color = Color(0.12156863, 0.81960785, 0.81960785, 1)
+theme_override_colors/font_pressed_color = Color(0.12156863, 0.81960785, 0.81960785, 1)
+theme_override_colors/font_hover_color = Color(0.11994285, 0.8178507, 0.8187799, 1)
+theme_override_fonts/font = ExtResource("1_55hsh")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_55hsh")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_qdpfi")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_j7p3s")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dot17")

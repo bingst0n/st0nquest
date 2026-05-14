@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://c4ck3t1s4r0ck"]
+
+[ext_resource type="Script" uid="uid://1cvfhim1ckof" path="res://Scripts/interactable.gd" id="1_rock"]
+[ext_resource type="Texture2D" uid="uid://povvfoi3ii6g" path="res://Assets/tiles/3.png" id="2_rock"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op7se"]
+size = Vector2(18, 16)
+
+[node name="Rock" type="StaticBody2D" unique_id=149994902]
+script = ExtResource("1_rock")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=172090014]
+shape = SubResource("RectangleShape2D_op7se")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D" unique_id=1279435167]
+texture = ExtResource("2_rock")
+offset = Vector2(0, -1)

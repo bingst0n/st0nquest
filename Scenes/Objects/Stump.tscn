@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bntpnp0eexn34"]
+
+[ext_resource type="Script" uid="uid://1cvfhim1ckof" path="res://Scripts/interactable.gd" id="1_q5kuv"]
+[ext_resource type="Texture2D" uid="uid://de06lfr3mscok" path="res://Assets/tiles/4.png" id="2_q5kuv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_op7se"]
+size = Vector2(22, 22)
+
+[node name="Stump" type="StaticBody2D" unique_id=149994902]
+script = ExtResource("1_q5kuv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=172090014]
+shape = SubResource("RectangleShape2D_op7se")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D" unique_id=1279435167]
+texture = ExtResource("2_q5kuv")
