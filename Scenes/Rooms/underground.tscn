@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://c78paybkncjy"]
+[gd_scene format=4 uid="uid://3eeyxvv0r0cm"]
 
 [ext_resource type="PackedScene" uid="uid://ggqwx7da54nu" path="res://Scenes/Objects/Player.tscn" id="1_du6hx"]
 [ext_resource type="PackedScene" uid="uid://c5fpnsnpckah" path="res://Scenes/Objects/Door.tscn" id="2_3528p"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://b2vc2gxpswkl4" path="res://Assets/tiles/7.png" id="10_sygj3"]
 [ext_resource type="Texture2D" uid="uid://d1polf4uucr7o" path="res://Assets/tiles/8.png" id="11_5n0ah"]
 [ext_resource type="PackedScene" uid="uid://c4ck3t1s4r0ck" path="res://Scenes/Objects/Rock.tscn" id="12_sygj3"]
+[ext_resource type="Script" path="res://Scripts/underground.gd" id="13_script"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ibhtq"]
 texture = ExtResource("3_akqem")
@@ -122,6 +123,7 @@ sources/7 = SubResource("TileSetAtlasSource_qv7eq")
 sources/8 = SubResource("TileSetAtlasSource_a2ijh")
 
 [node name="Underground" type="Node2D" unique_id=1897469017]
+script = ExtResource("13_script")
 
 [node name="Player" parent="." unique_id=802890566 instance=ExtResource("1_du6hx")]
 position = Vector2(-221, -12)
